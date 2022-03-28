@@ -1,0 +1,27 @@
+
+.Icon-container--delete {
+    cursor: pointer;
+    position: absolute;
+    font-size: 20px;
+    font-weight: bold;
+    top: -12px;
+    right: 0px;
+}
+
+.Icon-container--check {
+    cursor: pointer;
+}
+
+.Icon-svg {
+    height: 24px;
+    width: 24px;
+    transition: fill 0.15s;
+}
+
+.Icon-container--check:hover {
+    fill: #4caf50;
+}
+
+.Icon-container--delete:hover {
+    color: red;
+}
