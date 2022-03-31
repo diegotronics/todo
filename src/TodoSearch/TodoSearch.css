@@ -17,3 +17,8 @@
   font-family: 'Montserrat';
   font-weight: 400;
 }
+
+.TodoSearch:disabled {
+  background: #6e6e6e;
+  color: #eff3f8;
+}
